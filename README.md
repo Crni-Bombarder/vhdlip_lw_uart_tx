@@ -11,7 +11,7 @@ This IP implement a standalone UART Transmitter with a fixed configuration in or
 | DATA_BITS   | integer  | 8             | Number of data bits, between 5 to 9   |
 | STOP_BITS   | integer  | 2             | Number of stop bit, either 1 or 2     |
 | PARITY_EN   | boolean  | true          | Enable the parity bit                 |
-| PARITY_TYPE | boolean  | false         | Parity type, true : odd, false : even |
+| PARITY_TYPE | boolean  | true          | Parity type, true : odd, false : even |
 | INPUT_CDC   | boolean  | false         | CDC interface enable                  |
 
 ---
